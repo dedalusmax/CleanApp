@@ -1,6 +1,5 @@
-﻿namespace CleanApp.Domain.Entities
+﻿namespace CleanApp.Domain.Entities;
+
+public class Exam
 {
-    public class Exam
-    {
-    }
 }

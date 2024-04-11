@@ -1,6 +1,7 @@
-﻿namespace CleanApp.Application.Commands
+﻿using MediatR;
+
+namespace CleanApp.Application.Commands;
+
+public class CreateExamCommand : IRequest<Guid> 
 {
-    public class CreateExamCommand
-    {
-    }
 }

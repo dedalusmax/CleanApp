@@ -4,9 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CleanApp.Host.Controllers;
 
 //[Authorize]
-[Route("api/[controller]")]
-[ApiController]
-public class ExamController : ControllerBase
+public class ExamController : ApiControllerBase
 {
     [HttpGet]
     public async Task GetExamsAsync()
