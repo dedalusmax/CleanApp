@@ -1,0 +1,6 @@
+@CleanApp.Host_HostAddress = http://localhost:7262/api
+
+GET {{CleanApp.Host_HostAddress}}/exam
+Accept: application/json
+
+###
